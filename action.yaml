@@ -1,5 +1,5 @@
-name: 'NumenActions NumenPackage'
-description: 'Run numen packager'
+name: 'NumenActions ReleasePrep'
+description: 'Set env vars, create tags needed for releasing'
 runs:
   using: 'docker'
   image: 'docker://ghcr.io/fiveateooate/numenactions:latest'
